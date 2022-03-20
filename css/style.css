@@ -1,3 +1,72 @@
-.background-image{background-image:url("https://i.postimg.cc/ZYyp2ph3/pexels-jo-o-jesus-4198370-1.jpg");min-height:380px;background-position:center;background-repeat:no-repeat;background-size:cover;position:relative}.container{position:absolute;margin:20px;width:auto}.topnav{overflow:hidden}.splash{height:100vh;position:relative;background-position:0% 0%;background-size:cover;background-attachment:fixed}.service{flex:0 0 33.333%;position:relative}.service-wrapper{display:flex}.products{border:none;display:flex;flex-direction:row}
+/* Splash */
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url("https://i.postimg.cc/ZYyp2ph3/pexels-jo-o-jesus-4198370-1.jpg");
+  background-position: 0% 0%;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxrQkFBa0IscUZBQXFGLENBQUMsZ0JBQWdCLENBQUMsMEJBQTBCLENBQUMsMkJBQTJCLENBQUMscUJBQXFCLENBQUMsaUJBQWlCLENBQUMsV0FBVyxpQkFBaUIsQ0FBQyxXQUFXLENBQUMsVUFBVSxDQUFDLFFBQVEsZUFBZSxDQUFDLFFBQVEsWUFBWSxDQUFDLGlCQUFpQixDQUFDLHlCQUF5QixDQUFDLHFCQUFxQixDQUFDLDJCQUEyQixDQUFDLFNBQVMsZ0JBQWdCLENBQUMsaUJBQWlCLENBQUMsaUJBQWlCLFlBQVksQ0FBQyxVQUFVLFdBQVcsQ0FBQyxZQUFZLENBQUMsa0JBQWtCIiwiZmlsZSI6InN0eWxlLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5iYWNrZ3JvdW5kLWltYWdle2JhY2tncm91bmQtaW1hZ2U6dXJsKFwiaHR0cHM6Ly9pLnBvc3RpbWcuY2MvWll5cDJwaDMvcGV4ZWxzLWpvLW8tamVzdXMtNDE5ODM3MC0xLmpwZ1wiKTttaW4taGVpZ2h0OjM4MHB4O2JhY2tncm91bmQtcG9zaXRpb246Y2VudGVyO2JhY2tncm91bmQtcmVwZWF0Om5vLXJlcGVhdDtiYWNrZ3JvdW5kLXNpemU6Y292ZXI7cG9zaXRpb246cmVsYXRpdmV9LmNvbnRhaW5lcntwb3NpdGlvbjphYnNvbHV0ZTttYXJnaW46MjBweDt3aWR0aDphdXRvfS50b3BuYXZ7b3ZlcmZsb3c6aGlkZGVufS5zcGxhc2h7aGVpZ2h0OjEwMHZoO3Bvc2l0aW9uOnJlbGF0aXZlO2JhY2tncm91bmQtcG9zaXRpb246MCUgMCU7YmFja2dyb3VuZC1zaXplOmNvdmVyO2JhY2tncm91bmQtYXR0YWNobWVudDpmaXhlZH0uc2VydmljZXtmbGV4OjAgMCAzMy4zMzMlO3Bvc2l0aW9uOnJlbGF0aXZlfS5zZXJ2aWNlLXdyYXBwZXJ7ZGlzcGxheTpmbGV4fS5wcm9kdWN0c3tib3JkZXI6bm9uZTtkaXNwbGF5OmZsZXg7ZmxleC1kaXJlY3Rpb246cm93fVxuIl19 */
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-color: goldenrod;
+  color: white;
+  border-color: white;
+  background-position: 100% 0;
+  background-size: 300%;
+}
+
+.splash-inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.page-title, .page-subtitle, .products p {
+  text-align: center;
+}
+
+/* Our services */
+.products h2 {
+  text-align: center;
+}
+
+.service-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* nie dziala centrowanie ikonek */
+.service i {
+  color: gold;
+  text-align: center;
+}
+
+.service p {
+  text-align: center;
+}
+
+.title, .card-title {
+  text-align: center;
+}
+
+.service p, .title, .service h5, .page-subtitle, .page-title, .products p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQSxXQUFBO0FBR0E7RUFDSSxhQUFBO0VBQ0Esa0JBQUE7RUFDQSxzRkFBQTtFQUNBLDBCQUFBO0VBQ0Esc0JBQUE7RUFDQSw0QkFBQTtBQ0ZKOztBREtBO0VBQ0kscUJBQUE7RUFDQSxnQkFBQTtFQUNBLHdCQUFBO0VBQ0EsYUFBQTtFQUNBLGtCQUFBO0VBQ0EseUNBQUE7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxxQkFBQTtFQUNBLGVBQUE7RUFDQSxpQkFBQTtFQUNBLG1CQUFBO0VBQ0EsMkJBQUE7RUFDQSxZQUFBO0VBQ0EsbUJBQUE7RUFDQSwyQkFBQTtFQUNBLHFCQUFBO0FDRko7O0FES0E7RUFDSSxrQkFBQTtFQUNBLFdBQUE7RUFDQSxRQUFBO0VBQ0EsU0FBQTtFQUNBLGdDQUFBO0FDRko7O0FES0E7RUFDSSxrQkFBQTtBQ0ZKOztBREtBLGlCQUFBO0FBRUE7RUFDSSxrQkFBQTtBQ0hKOztBRE1BO0VBQ0ksYUFBQTtFQUNBLG1CQUFBO0VBQ0EsNkJBQUE7QUNISjs7QURLQSxrQ0FBQTtBQUNBO0VBQ0ksV0FBQTtFQUNBLGtCQUFBO0FDRko7O0FES0E7RUFDSSxrQkFBQTtBQ0ZKOztBREtBO0VBQ0ksa0JBQUE7QUNGSjs7QURLQTtFQUNJLHlDQUFBO0FDRkoiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

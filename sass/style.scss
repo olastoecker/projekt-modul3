@@ -1,25 +1,6 @@
-/* Navigation */
 
 /* Splash */
 
-.background-image {
-    background-image: url('https://i.postimg.cc/ZYyp2ph3/pexels-jo-o-jesus-4198370-1.jpg');
-    min-height: 380px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.container {
-    position: absolute;
-    margin: 20px;
-    width: auto;
-}
-
-.topnav {
-    overflow: hidden;
-  }
   
 .splash {
     height: 100vh;
@@ -29,3 +10,65 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background-color:goldenrod;
+    color: white;
+    border-color: white;
+    background-position: 100% 0;
+    background-size: 300%;
+}
+
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.page-title, .page-subtitle, .products p {
+    text-align: center;
+}
+
+/* Our services */
+
+.products h2 {
+    text-align: center;
+}
+
+.service-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* nie dziala centrowanie ikonek */
+.service i {
+    color:gold;
+    text-align: center;
+}
+
+.service p {
+    text-align: center;
+}
+
+.title, .card-title {
+    text-align: center;
+}
+
+.service p, .title, .service h5, .page-subtitle, .page-title, .products p {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
