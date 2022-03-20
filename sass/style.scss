@@ -24,23 +24,8 @@
 .splash {
     height: 100vh;
     position: relative;
-   
+    background-image: url('https://i.postimg.cc/ZYyp2ph3/pexels-jo-o-jesus-4198370-1.jpg');
     background-position: 0% 0%;
     background-size: cover;
     background-attachment: fixed;
-}
-/* Our services */
-.service {
-    flex: 0 0 33.333%;
-    position: relative;
-}
-
-.service-wrapper {
-    display: flex;
-}
-
-.products {
-    border: none;
-    display: flex;
-    flex-direction: row;
 }
