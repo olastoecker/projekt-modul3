@@ -1,1 +1,46 @@
+/* Navigation */
 
+/* Splash */
+
+.background-image {
+    background-image: url('https://i.postimg.cc/ZYyp2ph3/pexels-jo-o-jesus-4198370-1.jpg');
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+
+.topnav {
+    overflow: hidden;
+  }
+  
+.splash {
+    height: 100vh;
+    position: relative;
+   
+    background-position: 0% 0%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Our services */
+.service {
+    flex: 0 0 33.333%;
+    position: relative;
+}
+
+.service-wrapper {
+    display: flex;
+}
+
+.products {
+    border: none;
+    display: flex;
+    flex-direction: row;
+}
