@@ -1,7 +1,9 @@
 
 /* Splash */
 
-/* poniżej dwa pytania przy buttonie + ikonkach */
+.button-wrapper {
+    display: flex;
+}
   
 .navigation {
     height: 100vh;
@@ -32,7 +34,6 @@
     font-weight: 700;
 }
 
-/* nie umiem wycentrować buttona, walczyłam z tym parę h i jedyna opcja jaka mi wyszła w centrum, to że dodatkowo miał ramkę szeroką na cały ekran */
 .btn {
     display: inline-block;
     text-align: center;
@@ -89,7 +90,15 @@
     flex-direction: row;
     justify-content: space-around;
 }
-/* nie umiem wycentrować ikonek, probowałam różnych kombinacji i nie idzie, żeby się ustawiły dokladnie nad napisami :( */
+
+.products {
+    margin-top: 30px 30px;
+    padding: 30px;
+}
+.service {
+    display: flex;
+    flex-direction: column;
+}
 
 .service i {
     color:gold;
