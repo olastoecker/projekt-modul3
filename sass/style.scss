@@ -2,17 +2,28 @@
 /* Splash */
 
   
-.splash {
+.navigation {
     height: 100vh;
     position: relative;
     background-image: url('https://i.postimg.cc/0y7zHPTs/pexels-eberhard-grossgasteiger-572897.jpg');
     background-position: 0% 0%;
     background-size: cover;
     background-attachment: fixed;
+   
+}
+
+.nav-wrapper {
+    text-align: right;
+    margin-top: 0;
 }
 
 .nav-wrapper a {
     text-decoration: none;
+    font-size: 20px;
+    color:lightgray;
+    margin-top: 20px;
+    font-weight: 700;
+
 }
 .btn {
     display: inline-block;
@@ -25,13 +36,13 @@
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    border-width: 2px;
+    border-width: 5px;
     border-style: solid;
-    background-color:goldenrod;
     color: white;
-    border-color: white;
+    border-color: goldenrod;
     background-position: 100% 0;
     background-size: 300%;
+    justify-content: center;
 }
 
 .splash-inner {
@@ -49,11 +60,13 @@
 .page-subtitle {
     font-size: 48px;
     color: whitesmoke;
+    margin-top: 150px;
 }
 
 .page-title {
     font-size: 30px;
     color: whitesmoke;
+    margin-top: 150px;
 }
 
 /* Our services */
@@ -82,11 +95,15 @@
     text-align: center;
 }
 
-.service p, .title, .service h5, .page-subtitle, .page-title, .products p {
+.service p, .title, .service h5, .page-subtitle, .page-title, .products p, .nav-wrapper a {
     font-family:Arial, Helvetica, sans-serif;
 }
 
 /* Our portfolio */
+
+.portfolio {
+    background-color:lightgray;
+}
 
 .portfolio-wrapper {
     display: flex;
@@ -98,14 +115,15 @@
     object-fit: cover;
 }
 .photo-box {
-    border: none;
+    border: solid;
     flex: 0 0 30%;
 }
+
 .photo {
-    width: 200px;
-    height: 250px;
-    position: relative; 
+    width: 400px;
+    height: 500px;
     flex: 0 0 50%;
+    object-fit: cover;
 }
 
 .photo img {
@@ -117,6 +135,7 @@
 
 .photo-description, .portfolio p {
     text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 /* Footer */
@@ -129,7 +148,11 @@
 }
 
 .page-footer li {
-    font-size: 15px;
+    font-size: 25px;
     display: inline-block;
     color:black;
+}
+
+.footer p{
+    font-family:Arial, Helvetica, sans-serif;
 }
