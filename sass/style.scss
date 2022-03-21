@@ -97,7 +97,10 @@
     position: relative;
     object-fit: cover;
 }
-
+.photo-box {
+    border: none;
+    flex: 0 0 30%;
+}
 .photo {
     width: 200px;
     height: 250px;
@@ -105,15 +108,28 @@
     flex: 0 0 50%;
 }
 
-.photo-box {
-    border: solid;
-}
 .photo img {
     object-fit: cover;
     width: 100%;
     height: 100%;  
+    justify-content: center;
 }
 
 .photo-description, .portfolio p {
     text-align: center;
+}
+
+/* Footer */
+
+.page-footer ul {
+    padding: 20px;
+    margin: 0 0 0 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.page-footer li {
+    font-size: 15px;
+    display: inline-block;
+    color:black;
 }
